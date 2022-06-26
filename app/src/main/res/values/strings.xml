@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Action_call</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="call">Call</string>
+</resources>
