@@ -20,7 +20,7 @@ class SecondActivity : AppCompatActivity() {
         buttonToCall.setOnClickListener {
             val phoneNumber = gotPhoneFromMainActivity.text
             val callIntent = Intent(Intent.ACTION_CALL)
-            intent.setPackage("com.android.phone")
+            intent.setPackage(PACKAGE_TO_CALL)
             callIntent.data = Uri.parse("tel:$phoneNumber")
             startActivity(callIntent)
         }
